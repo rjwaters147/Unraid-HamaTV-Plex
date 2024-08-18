@@ -2,6 +2,11 @@
 
 This repository contains two shell scripts to install and update the HamaTV Metadata agent and Absolute Series Scanner for Plex Media Server on a Linux system, specifically designed for use with Unraid. These scripts are intended to be run using the Unraid UserScripts plugin for easy automation and scheduling.
 
+HAMATV: https://github.com/ZeroQI/Hama.bundle
+Absolute-Series-Scanner: https://github.com/ZeroQI/Absolute-Series-Scanner
+
+This script does not alter HamaTV or Absolute-Series-Scanner in anyway, it simply just installs or updates them so you don't have to do it manually.
+
 ## Purpose
 
 - **HamaTVInstall.sh**: Installs the HamaTV Metadata agent and the Absolute Series Scanner for Plex Media Server.
@@ -54,14 +59,4 @@ The following variables are used in both scripts. You may modify these if your s
 
 ## Unraid UserScripts Plugin
 
-These scripts are intended to be used with the [UserScripts](https://forums.unraid.net/topic/87104-plugin-userscripts/) plugin for Unraid. The UserScripts plugin allows you to create custom scripts and schedule them to run at specific times, making it perfect for automating tasks like installing and updating plugins for Plex.
-
-### How to Install UserScripts Plugin:
-
-1. Open the Unraid web GUI.
-2. Go to the "Plugins" tab.
-3. Click on "Install Plugin."
-4. Paste the URL for the UserScripts plugin: `https://raw.githubusercontent.com/Squidly271/userscripts/master/plugin/userscripts.plg`
-5. Click "Install."
-
-Once installed, you can use the UserScripts interface to create new scripts and schedule them to run automatically.
+These scripts are intended to be used with the [UserScripts](https://forums.unraid.net/topic/48286-plugin-ca-user-scripts/) plugin for Unraid. The UserScripts plugin allows you to create custom scripts and schedule them to run at specific times, making it perfect for automating tasks like installing and updating plugins for Plex.
