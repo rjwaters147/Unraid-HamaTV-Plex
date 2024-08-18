@@ -2,8 +2,8 @@
 
 This repository contains two shell scripts to install and update the HamaTV Metadata agent and Absolute Series Scanner for Plex Media Server on a Linux system, specifically designed for use with Unraid. These scripts are intended to be run using the Unraid UserScripts plugin for easy automation and scheduling.
 
-HAMATV: https://github.com/ZeroQI/Hama.bundle
-Absolute-Series-Scanner: https://github.com/ZeroQI/Absolute-Series-Scanner
+- HAMATV: https://github.com/ZeroQI/Hama.bundle
+- Absolute-Series-Scanner: https://github.com/ZeroQI/Absolute-Series-Scanner
 
 This script does not alter HamaTV or Absolute-Series-Scanner in anyway, it simply just installs or updates them so you don't have to do it manually.
 
